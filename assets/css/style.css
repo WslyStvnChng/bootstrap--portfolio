@@ -1,0 +1,125 @@
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    /* background: lightgrey; */
+    /* background-size: cover; */
+    background-image: url(https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgbets/images/background.jpg);
+}
+
+#home-section {
+    min-height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* Entire Container */
+/*.wrapper {
+    border: 2px solid white;
+}
+*/
+/* Nav Bar */
+
+.navbar {
+    border-bottom: 3px #4aaaa5 solid;
+    opacity: 0.9;
+}
+
+.navbar-brand {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+}
+
+
+/* Portfolio Item Row */
+
+p {
+    font-size: 12px;
+}
+
+h1 {
+    color: white;
+    opacity: 0.9;
+    text-transform: lowercase;
+}
+
+
+h2 {
+    color: white;
+    font-weight: bold;
+}
+
+h3 {
+    text-transform: lowercase;
+    color: rgb(255, 255, 255);
+}
+
+h5 {
+    font-weight: bold;
+    color: #919597;
+    background: white;
+    opacity: 0.9;
+    font-size: 17px;
+}
+
+h6 {
+    font-size: 13px;
+    text-transform: lowercase;
+}
+
+.my-3 {
+    text-align: center;
+}
+
+
+/* Icons with Contact */
+
+.my-333 {
+    text-align: center;
+}
+
+
+/* main photo */
+
+#photo {
+    height: auto;
+    width: 30%%;
+    margin-top: 8%;
+    
+}
+
+img {
+    width: 15%;
+}
+
+
+/* icons to connect */
+
+#contacting {
+    text-align: center;
+    margin-left: 85px;
+}
+
+.icons {
+    margin-left: 40%;
+}
+
+/* Social Sites */
+a{
+    color: #4aaaa5;
+}
+
+a:hover,a:focus {
+    text-decoration: none;
+    color: #26a5d3;
+}
+
+/* footer */
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
